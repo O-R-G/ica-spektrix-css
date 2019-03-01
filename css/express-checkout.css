@@ -10,18 +10,6 @@
   margin-top: 1em;
 }
 
-/* header formatting */
- .spx-header-container .spx-heading-title {
-   margin: 0px;
-   text-align: center;
-   font-size: 44px;
-   line-height: 46px;
-
-   padding-top: 60px;
-   padding-bottom: 60px;
-
-}
-
 /* primary buttons button */
 .spx-button-primary.spx-button-primary__checkout {
   width: 100%;
@@ -47,8 +35,8 @@
 /* Secondary buttons */
 .spx-button-secondary.spx-button-secondary__checkout,
 .spx-button-tertiary.spx-button-tertiary__checkout {
-  font-family: 'ocrbmedium', monospace;
-  font-size: 15px;
+  font-family: var(--ocrb-font);
+  font-size: var(--ocrb-font-size);
 
   height: 50px;
 
@@ -70,9 +58,13 @@
 
 /* Overall Heading */
 .spx-heading-headline.spx-heading-headline__checkout {
+  /* font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit; */
+
+  font-family: var(--bold-font);
   font-size: inherit;
   line-height: inherit;
-  font-weight: inherit;
 
   margin: 0px;
   margin-top: 1em;
@@ -128,8 +120,8 @@
 /* Edit */
 .spx-link-edit.spx-link-edit__checkout {
   float: right;
-  font-family: 'grotesque_mtregular', Helvetica, sans-serif;
-  font-size: 17px;
+  font-family: var(--standard-font);
+  font-size: var(--standard-font-size);
 }
 
 /* Fieldset */
@@ -283,8 +275,8 @@
 
 /* container summary font */
 .spx-subsection-container.spx-subsection-container__checkout.spx-subsection-container__checkout--order-summary {
-  font-family: 'ocrbmedium', monospace;
-  font-size: 15px;
+  font-family: var(--ocrb-font);
+  font-size: var(--ocrb-font-size);
 }
 
 /* item entry */
@@ -319,8 +311,8 @@
   display: block;
   margin-top: 1em;
 
-  font-family: 'grotesque_mtregular', Helvetica, sans-serif;
-  font-size: 17px;
+  font-family: var(--standard-font);
+  font-size: var(--standard-font-size);
 
 }
 
@@ -375,8 +367,8 @@
 /* order summary right align prices*/
 .spx-text-copy.spx-text-copy__checkout.spx-text-copy__checkout--final-summary.spx-intent-distinguishable {
   float: right;
-  font-family: 'ocrbmedium', monospace;
-  font-size: 15px;
+  font-family: var(--ocrb-font);
+  font-size: var(--ocrb-font-size);
 
   margin-right: 50%;
 }

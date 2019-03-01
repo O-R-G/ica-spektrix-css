@@ -1,0 +1,104 @@
+/* absolute logout button */
+.MyAccount.SpektrixPage .Button.Logout {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: auto;
+  padding: 0;
+  color: #fff;
+  background-color: #ccc;
+}
+
+/* right align by default  */
+.MyAccount.SpektrixPage > div, .MyAccount.SpektrixPage > p,
+.MyAccount.SpektrixPage > h2, .MyAccount.SpektrixPage > a {
+  margin-left: auto;
+}
+
+/* button save yellow */
+.MyAccount.SpektrixPage .Button.SaveDetailsButton {
+  background-color: #ff0;
+}
+
+
+/* formatting of options */
+.MyAccount.SpektrixPage .Options {
+  float: left;
+}
+
+.MyAccount.SpektrixPage .Options a {
+  font-family: var(--bold-font);
+  color: #000;
+}
+
+.MyAccount.SpektrixPage .Options a.Selected {
+  color: #fff;
+}
+
+/* h2 */
+.MyAccount.SpektrixPage h2 {
+  font-family: var(--bold-font);
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* change password link a */
+.MyAccount.SpektrixPage .ChangePassword {
+  display: block;
+  margin-bottom: 1em;
+}
+
+/* containers */
+.MyAccount.SpektrixPage .Container {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: row;
+  margin-bottom: 1em;
+
+  position: relative;
+}
+
+/* grow input */
+.MyAccount.SpektrixPage .Container .Input_Text {
+  width: auto;
+  flex-grow: 1;
+}
+
+/* validation error 100% */
+.MyAccount.SpektrixPage .ValidationError {
+  width: 100%;
+}
+
+/* label width and align */
+.MyAccount.SpektrixPage .Container Label {
+  width: 20%;
+  min-width: 20%;
+  max-width: 20%;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  margin-left: 20px;
+}
+
+.MyAccount.SpektrixPage .Container Label:first-of-type {
+  margin-left: 0px;
+}
+
+
+/* dob information */
+.MyAccount.SpektrixPage .Container.DateOfBirth select,
+.MyAccount.SpektrixPage .Container.DateOfBirth input {
+  height: 50px;
+  border: none;
+  font-size: inherit;
+  line-height: inherit;
+  margin-right: 10px;
+}
+
+.MyAccount.SpektrixPage .Container.DateOfBirth input {
+  width: 60px !important;
+  padding: 10px;
+  box-sizing: border-box;
+}

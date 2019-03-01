@@ -5,6 +5,8 @@
 @import url('login-logout.css');
 @import url('new-account.css');
 @import url('forgot-password.css');
+@import url('change-password.css');
+@import url('my-account.css');
 
 @import url('event-details.css');
 @import url('choose-seats.css');

@@ -12,3 +12,18 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* only load fonts used! */
+
+@font-face {
+    font-family: 'grotesque_mtbold';
+    src: url('grotesquemt-bold-webfont.eot');
+    src: url('grotesquemt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('grotesquemt-bold-webfont.woff2') format('woff2'),
+         url('grotesquemt-bold-webfont.woff') format('woff'),
+         url('grotesquemt-bold-webfont.ttf') format('truetype'),
+         url('grotesquemt-bold-webfont.svg#grotesque_mtbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

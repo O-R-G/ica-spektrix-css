@@ -1,7 +1,7 @@
 /* Overall Overrides */
 .Basket2.SpektrixPage .Button {
-  font-family: 'ocrbmedium', monospace;
-  font-size: 15px;
+  font-family: var(--ocrb-font);
+  font-size: var(--ocrb-font-size);
 
   width: 150px;
   padding-bottom: 10px;
@@ -63,8 +63,8 @@
 /* Items */
 .Basket2.SpektrixPage .Items {
   margin-bottom: 1em;
-  font-family: 'ocrbmedium', monospace;
-  font-size: 15px;
+  font-family: var(--ocrb-font);
+  font-size: var(--ocrb-font-size);
 
 }
 

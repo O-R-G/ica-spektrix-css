@@ -1,5 +1,148 @@
+/* right align  */
 .NewAccount.SpektrixPage .View {
   position: absolute;
   top: 149px;
   right: 0px;
+}
+
+/*  Buttons */
+.NewAccount.SpektrixPage .Buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NewAccount.SpektrixPage .Buttons .Button {
+  width: calc(50% - 20px);
+}
+
+.NewAccount.SpektrixPage .Buttons .Button:only-child {
+  width: 100%;
+}
+
+.NewAccount.SpektrixPage .Buttons .Button.NextButton,
+.NewAccount.SpektrixPage .Buttons .Button.CreateButton {
+  background-color: #ff0;
+}
+
+/* progress counter  */
+.NewAccount.SpektrixPage .Progress ol {
+  list-style-type: none;
+  padding-left: 0px;
+  font-family: var(--bold-font);
+}
+
+/* active color white */
+.NewAccount.SpektrixPage .Progress ol li .Current {
+  color: #fff;
+}
+
+/* details heading size and weight */
+.NewAccount.SpektrixPage h2 {
+  font-family: var(--bold-font);
+  font-size: var(--regular-font-size);
+  line-height: var(--regular-line-height);
+}
+
+/* Flexbox for details */
+.NewAccount.SpektrixPage .View .Container {
+  display: flex;
+  flex-wrap: wrap;
+
+  flex-direction: row;
+  margin-bottom: 1em;
+
+  position: relative;
+}
+
+/* grow input */
+.NewAccount.SpektrixPage .View .Container .Input_Text {
+  width: auto;
+  flex-grow: 1;
+}
+
+/* validation error 100% */
+.NewAccount.SpektrixPage .View .ValidationError {
+  width: 100%;
+}
+
+/* label width and align */
+.NewAccount.SpektrixPage .View .Container Label {
+  width: 20%;
+  min-width: 20%;
+  max-width: 20%;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  margin-left: 20px;
+}
+
+.NewAccount.SpektrixPage .View .Container Label:first-of-type {
+  margin-left: 0px;
+}
+
+/* dob information */
+.NewAccount.SpektrixPage .View .Container.DateOfBirth select,
+.NewAccount.SpektrixPage .View .Container.DateOfBirth input {
+  height: 50px;
+  border: none;
+  font-size: inherit;
+  line-height: inherit;
+  margin-right: 10px;
+}
+
+.NewAccount.SpektrixPage .View .Container.DateOfBirth input {
+  width: 60px !important;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* password length details */
+.NewAccount.SpektrixPage .View .Container.Password .Comment {
+  width: 100%;
+  margin-top: 1em;
+}
+
+
+
+/* Address details postcode*/
+.NewAccount.SpektrixPage .View .Container.Postcode {
+  padding-bottom: 70px;
+}
+.NewAccount.SpektrixPage .View .Button.FindAddressButton {
+  font-family: var(--ocrb-font);
+  font-size: var(--ocrb-font-size);
+  width: 150px;
+  padding-bottom: 10px;
+  height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+
+  bottom: 0px;
+  margin-bottom: 0px;
+
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+/* name comment */
+.NewAccount.SpektrixPage .View .Container.Name .Comment {
+  width: 100%;
+  margin-top: 1em;
+}
+
+/* email preferencecs */
+.NewAccount.SpektrixPage .View .Input_Checkbox input {
+  margin-right: 25px;
+}
+
+/* accessibility */
+.NewAccount.SpektrixPage .View h3 {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.NewAccount.SpektrixPage .View .OtherPreferences input {
+  margin-right: 25px;
 }

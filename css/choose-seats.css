@@ -46,8 +46,8 @@
 
 /* Format price */
 .Container.TicketType .Price {
-  font-family: 'ocrbmedium', monospace;
-  font-size: 15px;
+  font-family: var(--ocrb-font);
+  font-size: var(--ocrb-font-size);
   margin-top: -15px;
 }
 
