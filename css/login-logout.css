@@ -1,0 +1,25 @@
+.LoginHeading {
+  margin: 0px;
+  text-align: center;
+  font-size: 44px;
+  line-height: 46px;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Input text modification */
+
+.LoginLogout.SpektrixPage .Container.EmailAddress,
+.LoginLogout.SpektrixPage .Container.Password {
+  margin-top: 1em;
+}
+
+.LoginLogout.SpektrixPage .LoginForm {
+  margin-bottom: 1em;
+}
+
+.LoginLogout.SpektrixPage .Input_Text {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}

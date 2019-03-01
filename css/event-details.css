@@ -1,0 +1,39 @@
+
+/* Format Dropdown */
+.EventDatesList {
+  width: 100%;
+  height: 100px;
+
+  font-size: inherit;
+  line-height: inherit;
+  margin-bottom: 2em;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 0px;
+  border: none;
+
+  padding: 10px;
+  padding-bottom: 70px;
+
+}
+
+/* Format arrow */
+.EventDates {
+  position: relative;
+}
+
+/* Dropdown arrow */
+.EventDates:before {
+  content: "";
+  width: 100px;
+  height: 100px;
+
+  position: absolute;
+  right: 10px;
+  pointer-events: none;
+
+  background: transparent url('https://system.spektrix.com/instituteofcontemporaryarts_staging/resources/bracket-down-6-k.svg') no-repeat;
+}

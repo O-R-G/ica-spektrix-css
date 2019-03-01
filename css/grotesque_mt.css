@@ -1,0 +1,14 @@
+/* @font-face loads before any other css */
+/* https://css-tricks.com/snippets/css/using-font-face/ */
+
+@font-face {
+    font-family: 'grotesque_mtregular';
+    src: url('grotesquemt-regular-webfont.eot');
+    src: url('grotesquemt-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('grotesquemt-regular-webfont.woff2') format('woff2'),
+         url('grotesquemt-regular-webfont.woff') format('woff'),
+         url('grotesquemt-regular-webfont.ttf') format('truetype'),
+         url('grotesquemt-regular-webfont.svg#grotesque_mtregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

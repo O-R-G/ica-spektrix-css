@@ -1,0 +1,444 @@
+/* validation failed */
+.spx-validation-message.spx-validation-message__checkout.spx-validation-field-error {
+  color: #f00;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+/* validation errors */
+.spx-validation-summary-errors {
+  margin-top: 1em;
+}
+
+/* header formatting */
+ .spx-header-container .spx-heading-title {
+   margin: 0px;
+   text-align: center;
+   font-size: 44px;
+   line-height: 46px;
+
+   padding-top: 60px;
+   padding-bottom: 60px;
+
+}
+
+/* primary buttons button */
+.spx-button-primary.spx-button-primary__checkout {
+  width: 100%;
+  height: 20px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  text-align: left;
+  font-size: inherit;
+  line-height: inherit;
+
+  border: none;
+  padding: 10px;
+  padding-bottom: 88px;
+  margin-top: 1em;
+
+  background-color: #ff0;
+  cursor: pointer;
+}
+
+/* Secondary buttons */
+.spx-button-secondary.spx-button-secondary__checkout,
+.spx-button-tertiary.spx-button-tertiary__checkout {
+  font-family: 'ocrbmedium', monospace;
+  font-size: 15px;
+
+  height: 50px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border: none;
+  padding: 10px;
+
+  cursor: pointer;
+  background-color: #ddd;
+
+  margin-bottom: 1em;
+}
+
+/* Overall Heading */
+.spx-heading-headline.spx-heading-headline__checkout {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+
+  margin: 0px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Hide not complete headings */
+.spx-section-container.spx-section-container__checkout.spx-state-empty {
+  display: none;
+}
+
+/* Section border */
+.spx-section-container.spx-section-container__checkout {
+  margin-top: 1em;
+  border-top: 1px #000 dashed;
+}
+
+/* Labels and legends */
+.spx-field-container.spx-field-container__checkout label,
+.spx-legend-guide.spx-legend-guide__checkout  {
+  display: block;
+  margin-bottom: 1em;
+}
+
+/* Input */
+.spx-field-container.spx-field-container__checkout input {
+  width: 100%;
+  height: 50px;
+
+  border: none;
+  padding: 10px;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+
+  font-size: inherit;
+  line-height: inherit;
+  /* text-align: center; */
+}
+
+/* Dropdown */
+.spx-field-container.spx-field-container__checkout select {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 1em;
+
+  font-size: inherit;
+  line-height: inherit;
+
+  border-none;
+  border-radius: none;
+}
+
+/* Edit */
+.spx-link-edit.spx-link-edit__checkout {
+  float: right;
+  font-family: 'grotesque_mtregular', Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+/* Fieldset */
+.spx-fieldset-container.spx-fieldset-container__checkout {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+/* Delivery Options input and label*/
+.spx-fieldset-container.spx-fieldset-container__checkout.spx-fieldset-container__checkout--ticket-delivery.spx-data-group-delivery-option-select input {
+  width: inherit;
+  height: inherit;
+  margin-bottom: inherit;
+  margin: 0px;
+}
+
+.spx-fieldset-container.spx-fieldset-container__checkout.spx-fieldset-container__checkout--ticket-delivery.spx-data-group-delivery-option-select label {
+  margin-left: 10px;
+  display: inline-block;
+  margin-bottom: inherit;
+}
+
+/* Select an address */
+.spx-field-container.spx-field-container__checkout.spx-field-container__checkout--select-address {
+  display: flex;
+  width: 100%;
+}
+
+.spx-fieldset-container.spx-fieldset-container__checkout .spx-input-radio.spx-input-radio__checkout {
+  width: 14px;
+  height: inherit;
+  margin-bottom: inherit;
+  margin: 0px;
+}
+
+.spx-fieldset-container.spx-fieldset-container__checkout .spx-label-field.spx-label-field__checkout.spx-label-field__checkout--select-address  {
+  margin-left: 10px;
+  display: inline-block;
+  margin-bottom: 1em;
+  flex-grow: 1;
+}
+
+/* address lines */
+.spx-text-copy.spx-text-copy__checkout.spx-data-addressline1,
+.spx-text-copy.spx-text-copy__checkout.spx-data-addressline2,
+.spx-text-copy.spx-text-copy__checkout.spx-data-country {
+  display: block;
+}
+
+/* Edit address */
+.spx-link-edit.spx-link-edit__checkout.spx-link-edit__checkout--select-address {
+  width: 200px;
+  text-align: right;
+}
+
+/* Subsection Info */
+.spx-heading-sub-headline.spx-heading-sub-headline__checkout {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Address */
+.spx-heading-sub-headline.spx-heading-sub-headline__checkout.spx-heading-sub-headline__checkout--ticket-delivery-address {
+  margin-top: 2em;
+}
+
+/* Forgot password */
+.spx-subsection-container.spx-subsection-container__checkout.spx-subsection-container__checkout--start-checkout-forgotten-password {
+  margin-top: 2em;
+}
+
+.spx-text-copy.spx-text-copy__checkout.spx-text-copy__checkout--start-checkout-forgotten-password {
+  margin-bottom: 0px;
+}
+
+.spx-button-secondary.spx-button-secondary__checkout.spx-button-secondary__checkout--start-checkout-forgotten-password {
+  font-family: unset;
+  text-transform: unset;
+  font-size: inherit;
+  line-height: inherit;
+
+  background-color: #ccc;
+  color: #fff;
+  height: unset;
+  text-align: left;
+  padding: 0;
+}
+
+/* Find address manually */
+.spx-link.spx-link__checkout.spx-link__checkout--new-address {
+  margin-left: 25px;
+}
+
+/* Donations */
+.spx-field-container.spx-field-container__checkout.spx-field-container__checkout--donation {
+  margin-top: 1em;
+  display: flex;
+}
+
+/* donation amount */
+.spx-label-field.spx-label-field__checkout.spx-label-field__checkout--donation {
+  flex-grow: 1;
+
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* gbp sign */
+.spx-text-copy.spx-text-copy__checkout.spx-text-copy__checkout--donation {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  margin-right: 5px;
+}
+
+/* donation amount */
+.spx-input-text.spx-input-text__checkout.spx-input-text__checkout--donation {
+  width: unset;
+  margin-right: 25px;
+  margin-bottom: 0px;
+}
+
+/* increment/decrement */
+.spx-button-tertiary.spx-button-tertiary__checkout.spx-button-tertiary__checkout--donation.spx-intent-decrement,
+.spx-button-tertiary.spx-button-tertiary__checkout.spx-button-tertiary__checkout--donation.spx-intent-increment {
+  width: 50px;
+  margin-bottom: 0px;
+}
+
+/* do not donate */
+.spx-button-secondary.spx-button-secondary__checkout.spx-button-secondary__checkout--donations {
+  margin-top: 1em;
+}
+
+/* order summary */
+.spx-section-container.spx-section-container__checkout.spx-section-container__checkout--order-summary.spx-state-editable {
+  position: relative;
+}
+
+/* Hide tickets, hide credit */
+.spx-heading-sub-headline.spx-heading-sub-headline__checkout.spx-heading-sub-headline__checkout--ticket-summary,
+.spx-heading-sub-headline.spx-heading-sub-headline__checkout.spx-heading-sub-headline__checkout--credit {
+  display: none;
+}
+
+/* container summary font */
+.spx-subsection-container.spx-subsection-container__checkout.spx-subsection-container__checkout--order-summary {
+  font-family: 'ocrbmedium', monospace;
+  font-size: 15px;
+}
+
+/* item entry */
+.spx-list-item.spx-list-item__checkout.spx-list-item__checkout--ticket-summary {
+  margin-bottom: 1em;
+}
+
+/* item title */
+.spx-order-line.spx-order-line__checkout.spx-order-line__checkout--ticket-summary.spx-data-event-name {
+  text-transform: uppercase;
+  display: block
+}
+
+/* abbr  */
+.spx-order-line.spx-order-line__checkout.spx-order-line__checkout--ticket-summary.spx-data-ticket-quantity abbr {
+  text-decoration: none;
+}
+
+/* donations */
+.spx-heading-sub-headline.spx-heading-sub-headline__checkout.spx-heading-sub-headline__checkout--donation-summary {
+  text-transform: uppercase;
+
+  margin-top: 1em;
+  margin-bottom: 0px;
+}
+
+/* edit basket */
+.spx-section-container.spx-section-container__checkout.spx-section-container__checkout--order-summary.spx-state-editable
+.spx-link-edit.spx-link-edit__checkout.spx-link-edit__checkout--order-summary {
+  float: unset;
+
+  display: block;
+  margin-top: 1em;
+
+  font-family: 'grotesque_mtregular', Helvetica, sans-serif;
+  font-size: 17px;
+
+}
+
+/* gift voucher */
+.spx-subsection-container.spx-subsection-container__checkout.spx-subsection-container__checkout--credit {
+  margin-top: 1em;
+}
+
+/* credit entry */
+.spx-field-container.spx-field-container__checkout.spx-field-container__checkout--credit {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* gift voucher code */
+.spx-label-field.spx-label-field__checkout.spx-label-field__checkout--credit {
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-grow: 1;
+}
+
+/* code number */
+.spx-input-text.spx-input-text__checkout.spx-input-text__checkout--credit {
+  width: unset;
+  margin-right: 25px;
+  margin-bottom: 0px;
+
+}
+
+/* redeem voucher */
+.spx-button-tertiary.spx-button-tertiary__checkout.spx-button-tertiary__checkout--credit {
+  margin-bottom: 0px;
+}
+
+/* wrong validation */
+.spx-validation-message.spx-validation-message__checkout.spx-validation-message__checkout--credit {
+  width: 100%;
+}
+
+/* use voucher */
+
+/* use voucher checkbox */
+.spx-input-checkbox.spx-input-checkbox__checkout.spx-input-checkbox__checkout--credit {
+  width: auto;
+  height: auto;
+  margin: 0;
+  margin-right: 25px;
+}
+
+/* order summary right align prices*/
+.spx-text-copy.spx-text-copy__checkout.spx-text-copy__checkout--final-summary.spx-intent-distinguishable {
+  float: right;
+  font-family: 'ocrbmedium', monospace;
+  font-size: 15px;
+
+  margin-right: 50%;
+}
+
+/* order summary */
+.spx-subsection-container.spx-subsection-container__checkout.spx-subsection-container__checkout--final-summary {
+  margin-bottom: 1em;
+}
+
+
+/* Billing details */
+.spx-field-container.spx-field-container__checkout.spx-field-container__checkout--payment-method {
+  display: flex;
+}
+
+/* save card details checkbox */
+.spx-input-checkbox.spx-input-checkbox__checkout.spx-input-checkbox__checkout--payment-method {
+  width: auto;
+  height: auto;
+  margin: 0;
+  margin-right: 25px;
+}
+
+/* Card information */
+.spx-iframe.spx-iframe__checkout.spx-iframe__checkout--payment {
+  height: 700px;
+}
+
+/* Payment options overall */
+.fox .Container {
+  display: grid;
+  grid-template-columns: 20% 40% auto 1fr;
+  grid-column-gap: 10px;
+}
+
+/* PaymentOptions top */
+.PaymentOptions {
+  padding-top: 1em;
+}
+
+/* spacing for in between payment options */
+.PaymentOptions .Container {
+  margin-bottom: 2em;
+  position: relative;
+}
+
+.PaymentOptions .Container .ValidationError {
+  position: absolute;
+  left: 0px;
+  top: -1.25em;
+}
+
+/* select overrides */
+.PaymentOptions .Container select {
+  font-size: inherit;
+    line-height: inherit;
+    height: 50px;
+    border: none;
+}
+
+/* center texts */
+.PaymentOptions .Container label, .PaymentOptions .Container span {
+  margin-top: auto;
+  margin-bottom: auto;
+}

@@ -1,0 +1,57 @@
+/* custom choose seats */
+.ChooseSeatsHeading h1 {
+  width: 100vw;
+  margin-left: -20px;
+}
+
+/* Pull right some subtext and align correctly */
+.SeatingAreaOptionalInstructions {
+  position: absolute;
+  right: 0px;
+  top: 149px;
+}
+
+/* Div for each ticket row */
+.Container.TicketType {
+  height: 50px;
+  margin-bottom: 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  padding-left: calc(50px + 1em);
+
+  position: relative;
+}
+
+/* Position and format input box */
+.Container.TicketType .Input_Text {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+  border: none;
+  font-size: inherit;
+  line-height: inherit;
+
+  width: 50px;
+  height: 50px;
+  text-align: center;
+
+  padding: unset;
+  margin-top: 0;
+  box-sizing: unset;
+}
+
+/* Format price */
+.Container.TicketType .Price {
+  font-family: 'ocrbmedium', monospace;
+  font-size: 15px;
+  margin-top: -15px;
+}
+
+/* Hide instance calendar */
+.InstanceCalendar {
+  /* display: none; */
+}

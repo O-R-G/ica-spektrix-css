@@ -1,0 +1,209 @@
+/* Overall Overrides */
+.Basket2.SpektrixPage .Button {
+  font-family: 'ocrbmedium', monospace;
+  font-size: 15px;
+
+  width: 150px;
+  padding-bottom: 10px;
+  height: 50px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Basket2.SpektrixPage .Button:hover {
+  background-color: #ddd;
+}
+
+
+/* Modify savings section */
+
+/* Hide savings header */
+.Savings h2 {
+  /* display: none; */
+}
+
+.Savings ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+/* Flex box */
+.Container.PromoCode {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Container.PromoCode > .left {
+  width: 75%;
+  flex-grow: 1;
+
+  /* Match with input box */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* Input text modification */
+.Container.PromoCode .Input_Text {
+  min-width: 100px;
+  width: 25%;
+  height: 50px;
+
+  font-size: inherit;
+  line-height: inherit;
+
+  border: none;
+
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+/* Items */
+.Basket2.SpektrixPage .Items {
+  margin-bottom: 1em;
+  font-family: 'ocrbmedium', monospace;
+  font-size: 15px;
+
+}
+
+/* Items Header */
+.Basket2.SpektrixPage .Items .Header {
+  text-transform: uppercase;
+}
+
+.Basket2.SpektrixPage .Items dt.Header {
+  display: inline-block;
+  width: calc(100% - 300px);
+}
+
+.Basket2.SpektrixPage .Items dd.Header {
+  float: right;
+  margin-inline-start: 0px;
+  width: 200px;
+}
+
+.Basket2.SpektrixPage .Items dd.Header ul {
+  display: flex;
+}
+
+.Basket2.SpektrixPage .Items dd.Header li {
+  width: 100px;
+}
+
+/* Item Instance and Donation */
+.Basket2.SpektrixPage .Items dt.Item.Instance,
+.Basket2.SpektrixPage .Items dt.Item.Donation {
+  margin-top: 1em;
+  width: calc(100% - 300px);
+
+  text-transform: uppercase;
+}
+
+.Basket2.SpektrixPage .Items dd.Item.Instance,
+.Basket2.SpektrixPage .Items dd.Item.Donation {
+  margin-left: 0px;
+  position: relative;
+}
+
+.Basket2.SpektrixPage .Items dd.Item.Instance .Details,
+.Basket2.SpektrixPage .Items dd.Item.Instance .ViewDetails {
+  margin: 0px;
+}
+
+/* Metadata align right */
+.Basket2.SpektrixPage .Items dd.Item.Instance ul.Breakdown,
+.Basket2.SpektrixPage .Items dd.Item.Donation ul.Breakdown {
+  margin-top: -21px;
+  margin-inline-start: 0px;
+  width: 200px;
+
+  display: flex;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.Basket2.SpektrixPage .Items dd.Item.Instance ul.Breakdown li .Label,
+.Basket2.SpektrixPage .Items dd.Item.Donation ul.Breakdown li .Label {
+  display: none;
+}
+
+.Basket2.SpektrixPage .Items dd.Item.Instance ul.Breakdown li,
+.Basket2.SpektrixPage .Items dd.Item.Donation ul.Breakdown li {
+  width: 100px;
+}
+
+/* Donation instance */
+.Basket2.SpektrixPage .Items dd.Item.Donation p {
+  margin: 0px;
+  margin-bottom: 1em;
+}
+
+.Basket2.SpektrixPage .Items dd.Item.Donation ul.Breakdown {
+  width: 100px;
+}
+
+/* Booking fee */
+.Basket2.SpektrixPage .Items dt.Fee {
+  width: calc(100% - 300px);
+  display: inline-block;
+
+  margin-bottom: 1em;
+}
+
+.Basket2.SpektrixPage .Items dd.Fee {
+  margin: 0px;
+  float: right;
+
+  width: 100px;
+}
+
+.Basket2.SpektrixPage .Items dd.Fee .Label {
+  display: none;
+}
+
+/* Totals */
+.Basket2.SpektrixPage .Items dt.Footer {
+  width: calc(100% - 300px);
+  display: inline-block;
+
+  margin-bottom: 1em;
+}
+
+.Basket2.SpektrixPage .Items dd.Footer {
+  margin: 0px;
+  float: right;
+
+  width: 100px;
+}
+
+.Basket2.SpektrixPage .Items dd.Footer .GrandTotal .Label {
+  display: none;
+}
+
+.Basket2.SpektrixPage .Items dd.Footer .Commission {
+  /* display: none; */
+}
+
+/* Optional Message */
+.Basket2.SpektrixPage .OptionalMessage {
+  margin-bottom: 1em;
+}
+
+/* Checkout */
+.Basket2.SpektrixPage .Buttons .CheckoutLink {
+  color: #000;
+  background-color: #ff0;
+
+  width: 100%;
+  height: 100px;
+
+  display: block;
+
+  padding: 10px;
+  box-sizing: border-box;
+
+}
